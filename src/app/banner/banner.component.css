@@ -1,0 +1,57 @@
+.div1 {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  .text-overlay {
+      position:absolute;
+    top: 70%;
+
+    left: 75%;
+    transform: translate(-20%, -30%);
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background color for the overlay */
+    padding: 2px;
+    color: white;
+    border-radius: 2rem;
+  }
+  .text-overlay h1{
+   font-size: 30px;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   
+  }
+  @media(max-width:76.97rem){
+    .div1 img {
+      position: relative;
+      display: inline-block;
+      width: 1150px;
+    
+    }
+    
+    .text-overlay {
+        position:absolute;
+      top: 70%;
+    
+      left: 75%;
+      transform: translate(-20%, -30%);
+      background-color: rgba(0, 0, 0, 0.5); /* Add a background color for the overlay */
+      padding: 2px;
+      color: white;
+      border-radius: 2rem;
+    }
+    .text-overlay h1{
+     font-size: 15px;
+     padding-left: 15%;
+     padding-right: 20%;
+     padding-top: 5%;
+     padding-bottom: -2%;
+    
+     
+    }
+    .footer{
+      width: 1200px;
+    }
+  }

@@ -1,0 +1,19 @@
+.navbar{
+    background-color:rgb(222, 140, 16);
+    }
+    .navbar-brand{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: x-large;
+    }
+    .nav-link{
+      font-family: roboto;
+      color: aliceblue;
+      /* transition: transform 0.8s, background-color 0.8s; */
+      transition: 1.3s;
+    }
+    .nav-link:hover{
+      transform: scale(1.0);
+      color: rgb(24, 24, 24);
+      border-radius: 20%;
+    }

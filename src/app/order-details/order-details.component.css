@@ -1,0 +1,170 @@
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+   
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    height: 100%;
+    width: 100%;
+  
+    padding-left: 30%;
+    padding-right: 30%;
+    
+    padding-top: 8%;
+    background-color: white;
+    background-image: url("../../assets/images/hand.jpg");
+    max-width: 1400px;
+    min-height: 650px;
+  }
+
+   
+  
+  
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 2rem;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  .registerbtn {
+    background-color: #f1f1f1;
+    
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-top: 1%;
+   padding-bottom: 1%;
+   border-radius: 1rem;
+    
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+  .registerbtn {
+    margin-left: 40%;
+  width: 20%;
+  
+ 
+    
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    background-color: #f90;
+  }
+  
+
+  a {
+    color: dodgerblue;
+  }
+  
+
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  @media(max-width:76.97rem){
+    .section{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+     
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    
+    .container {
+      
+      width: 100%;
+    
+      padding-left: 5%;
+      margin-top: 50%;
+      padding-top: 10%;
+      background-color: white;
+      /*background-image: url("../../assets/images/hands-holding-donation-box-with-provisions.jpg");
+      max-width: 500px;
+      min-height: 500px;*/
+   
+    }
+  
+     
+    
+    
+   
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+   
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    .registerbtn {
+      background-color: #04AA6D;
+      width: 30%;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-top: 5%;
+      padding-top: 2%;
+     padding-bottom: 2%;
+     border-radius: 1rem;
+      
+      cursor: pointer;
+      width: 50%;
+      opacity: 0.9;
+    }
+    .registerbtn {
+      margin-left: 70%;
+    width: 30%;
+   
+      
+    }
+    
+    .registerbtn:hover {
+      opacity: 1;
+    }
+    
+  
+    a {
+      color: dodgerblue;
+    }
+    
+  
+  }
+  
