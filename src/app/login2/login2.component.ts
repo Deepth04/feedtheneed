@@ -14,6 +14,6 @@ export class Login2Component {
 
  }
  onclick(){
-  this.routes.navigateByUrl('acceptance')
+  this.routes.navigateByUrl('order-information')
  }
 }

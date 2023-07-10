@@ -136,7 +136,7 @@
     }
     
     .registerbtn {
-      background-color: #04AA6D;
+      background-color: white;
       width: 30%;
       margin-right: 10%;
       margin-left: 10%;
@@ -158,6 +158,7 @@
     
     .registerbtn:hover {
       opacity: 1;
+      background-color: #f90;
     }
     
   

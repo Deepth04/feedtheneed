@@ -78,12 +78,12 @@ section .row .col .card:hover{
 }
 
 @media(max-width:76.97rem){
-  
+      
   .sec {
     width: 1200px;
     
     padding: 0;
-    background-image: url('https://img.freepik.com/free-photo/top-view-food-donation_23-2148733821.jpg?w=900&t=st=1687149946~exp=1687150546~hmac=b95973a61eb9d4677f6398b7498523314434ed0978e9fe0fa2ee63684b3b63a8');
+    
     max-width: 1500px;
     min-height: 650px;
     height: 100vh;
@@ -94,30 +94,31 @@ section .row .col .card:hover{
     overflow: hidden;
     
   }
-  section .row .col .card .card-title
-  {
-    text-align: center;
-   
+  section .row .col .card .card-title h3{
+        
+     font-size: 60px;
   }
+  
   section .row .col .card {
     width: 700px;
         margin-left: 80%;
         margin-right: 100%;
+        font-size: 35px;
         
         
   }
-  section .con .row .col .card .card-title h1
+ .con .row .col .card .card-title h3
   {
     text-align: center;
     color:rgb(177, 30, 30);
-    font-size:50px;
+    font-size:80px;
     
     
    
   }
   section .row .col .card .card-body .card-text p
   {
-    font-size: 50px;
+    font-size: 100px;
     
     
   }
@@ -133,7 +134,7 @@ section .row .col .card:hover{
     
   }
   section .row .col .card .card-title .card-body button:hover{
-    background-color: rgba(201, 0, 0, 0.968);
+    background-color: #f90;
   }
   section .row .col .card{
     transition: transform 420ms;
@@ -152,7 +153,7 @@ section .row .col .card:hover{
   }
   .b1,.b2{
     margin-left: 30%;
-    background-color: rgb(177, 30, 30);
+    background-color: white;
     border-radius: 2rem;
     padding-bottom: 2%;
     padding-top: 2%;
@@ -161,6 +162,10 @@ section .row .col .card:hover{
   }
   .footer{
     width: 1150px;
+    font-size: 50px;
   
+  }
+  .navbar{
+    font-size: 50px;
   }
 }

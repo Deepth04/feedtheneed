@@ -15,7 +15,7 @@ export class AcceptanceComponent {
 
   }
   onclick(){
-    this.routes.navigateByUrl('order-information')
+    this.routes.navigateByUrl('welcome')
   
   }
   on(){
